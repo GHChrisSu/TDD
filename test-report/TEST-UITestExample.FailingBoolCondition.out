@@ -1,0 +1,9 @@
+10:46:59.365 Exception : Exception: Operation timed out: BoolCondition(System.Func`1[System.Boolean])
+   at System.Environment.get_StackTrace() in /Users/builduser/buildslave/mono/build/mcs/class/corlib/System/Environment.cs:line 227
+   at UITest.WaitFor(.Condition condition) in D:\UnityProject\TDD\Assets\UITest\UITest.cs:line 70
+   at UITestExample+<FailingBoolCondition>c__Iterator3.MoveNext() in D:\UnityProject\TDD\Assets\UITest\Examples\UITestExample.cs:line 68
+   at UITest+<InvokeMethod>c__Iterator1.MoveNext() in D:\UnityProject\TDD\Assets\UITest\UITest.cs:line 51
+   at UnityEngine.SetupCoroutine.InvokeMoveNext(IEnumerator enumerator, IntPtr returnValueAddress) in C:\buildslave\unity\build\Runtime\Export\Coroutines.cs:line 17
+UITest+<WaitForInternal>c__Iterator5.MoveNext () (at Assets/UITest/UITest.cs:136)
+UnityEngine.SetupCoroutine.InvokeMoveNext (IEnumerator enumerator, IntPtr returnValueAddress) (at C:/buildslave/unity/build/Runtime/Export/Coroutines.cs:17)
+

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="UITestExample" tests="3" skipped="0" failures="1" errors="0" timestamp="2017-12-11T10:46:55" time="3.766">
+<testcase name="SecondScreenCanBeOpenedFromTheFirstOne" classname="UITestExample" time="1.105">
+<system-out><![CDATA[10:46:56.075 Log       : Button pressed: Button-OpenSecondScreen (UnityEngine.GameObject)
+10:46:56.157 Log       : Button pressed: Button-Close (UnityEngine.GameObject)
+]]></system-out>
+</testcase>
+<testcase name="SuccessfulNetworkResponseIsDisplayedOnTheFirstScreen" classname="UITestExample" time="0.561">
+<system-out><![CDATA[10:46:56.855 Log       : Button pressed: Button-NetworkRequest (UnityEngine.GameObject)
+]]></system-out>
+</testcase>
+<testcase name="FailingBoolCondition" classname="UITestExample" time="2.095">
+<failure message="Exception: Operation timed out: BoolCondition(System.Func`1[System.Boolean])"><![CDATA[UITest+<WaitForInternal>c__Iterator5.MoveNext () (at Assets/UITest/UITest.cs:136)
+UnityEngine.SetupCoroutine.InvokeMoveNext (IEnumerator enumerator, IntPtr returnValueAddress) (at C:/buildslave/unity/build/Runtime/Export/Coroutines.cs:17)
+]]></failure>
+<system-out><![CDATA[10:46:59.365 Exception : Exception: Operation timed out: BoolCondition(System.Func`1[System.Boolean])
+   at System.Environment.get_StackTrace() in /Users/builduser/buildslave/mono/build/mcs/class/corlib/System/Environment.cs:line 227
+   at UITest.WaitFor(.Condition condition) in D:\UnityProject\TDD\Assets\UITest\UITest.cs:line 70
+   at UITestExample+<FailingBoolCondition>c__Iterator3.MoveNext() in D:\UnityProject\TDD\Assets\UITest\Examples\UITestExample.cs:line 68
+   at UITest+<InvokeMethod>c__Iterator1.MoveNext() in D:\UnityProject\TDD\Assets\UITest\UITest.cs:line 51
+   at UnityEngine.SetupCoroutine.InvokeMoveNext(IEnumerator enumerator, IntPtr returnValueAddress) in C:\buildslave\unity\build\Runtime\Export\Coroutines.cs:line 17
+UITest+<WaitForInternal>c__Iterator5.MoveNext () (at Assets/UITest/UITest.cs:136)
+UnityEngine.SetupCoroutine.InvokeMoveNext (IEnumerator enumerator, IntPtr returnValueAddress) (at C:/buildslave/unity/build/Runtime/Export/Coroutines.cs:17)
+
+]]></system-out>
+</testcase>
+</testsuite>
