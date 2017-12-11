@@ -1,0 +1,8 @@
+TDD.csproj
+TDD.Editor.csproj
+Temp/
+Library/
+TDD.sln
+.vs/
+*.meta
+*.TMP

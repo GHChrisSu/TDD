@@ -1,0 +1,25 @@
+public Color[] rgbs = new Color[]
+{
+	new Color(0.0f, 0.0f, 0.0f),		// Black
+	new Color(0.5f, 0.5f, 0.5f),		// Gray
+	new Color(1.0f, 1.0f, 1.0f),		// White
+	new Color(1.0f, 0.0f, 0.0f),		// Red
+	new Color(1.0f, 1.0f, 0.0f),		// Yellow
+	new Color(0.0f, 1.0f, 0.0f),		// Green
+	new Color(0.0f, 1.0f, 1.0f),		// Cyan
+	new Color(0.0f, 0.0f, 1.0f),		// Blue
+	new Color(1.0f, 0.0f, 1.0f)			// Magenta
+};
+
+public float[][] hsvs = new float[][]
+{
+	new float[] { 0.0f, 0.0f, 0.0f },	// Black
+	new float[] { 0.0f, 0.0f, 0.5f },	// Gray
+	new float[] { 0.0f, 0.0f, 1.0f },	// White
+	new float[] { 0.0f, 1.0f, 1.0f },	// Red
+	new float[] { 60.0f, 1.0f, 1.0f },	// Yellow
+	new float[] { 120.0f, 1.0f, 1.0f },	// Green
+	new float[] { 180.0f, 1.0f, 1.0f },	// Cyan
+	new float[] { 240.0f, 1.0f, 1.0f },	// Blue
+	new float[] { 300.0f, 1.0f, 1.0f }	// Magenta
+};
